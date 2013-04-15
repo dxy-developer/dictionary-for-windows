@@ -1,0 +1,11 @@
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\bin\Debug\dxyDict.exe.config
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\bin\Debug\dxyDict.exe
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\bin\Debug\dxyDict.pdb
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\bin\Debug\dxyDict.xml
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.frmMain.resources
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.Resources.resources
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.vbproj.GenerateResource.Cache
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.exe
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.xml
+e:\documents\visual studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.pdb
+e:\Documents\Visual Studio 2012\Projects\dxyDict\dxyDict\obj\Debug\dxyDict.dlgSimple.resources
