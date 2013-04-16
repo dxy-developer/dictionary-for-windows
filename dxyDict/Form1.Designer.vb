@@ -32,7 +32,6 @@ Partial Class frmMain
         Me.mnuCopy = New System.Windows.Forms.ToolStripMenuItem()
         Me.sbMain = New System.Windows.Forms.StatusStrip()
         Me.lblLink = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.lblEgg = New System.Windows.Forms.ToolStripStatusLabel()
         Me.cmdSet = New System.Windows.Forms.ToolStripDropDownButton()
         Me.mnuCursor = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuClipboard = New System.Windows.Forms.ToolStripMenuItem()
@@ -90,7 +89,7 @@ Partial Class frmMain
         '
         'sbMain
         '
-        Me.sbMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblLink, Me.cmdSet, Me.lblCollapse, Me.lblEgg})
+        Me.sbMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblLink, Me.cmdSet, Me.lblCollapse})
         Me.sbMain.Location = New System.Drawing.Point(0, 173)
         Me.sbMain.Name = "sbMain"
         Me.sbMain.Size = New System.Drawing.Size(420, 23)
@@ -104,12 +103,6 @@ Partial Class frmMain
         Me.lblLink.Name = "lblLink"
         Me.lblLink.Size = New System.Drawing.Size(100, 18)
         Me.lblLink.Text = "查看更多例句……"
-        '
-        'lblEgg
-        '
-        Me.lblEgg.Name = "lblEgg"
-        Me.lblEgg.Size = New System.Drawing.Size(80, 18)
-        Me.lblEgg.Text = "                  "
         '
         'cmdSet
         '
@@ -147,7 +140,7 @@ Partial Class frmMain
         Me.lblCollapse.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.lblCollapse.LinkColor = System.Drawing.Color.Black
         Me.lblCollapse.Name = "lblCollapse"
-        Me.lblCollapse.Size = New System.Drawing.Size(102, 17)
+        Me.lblCollapse.Size = New System.Drawing.Size(102, 18)
         Me.lblCollapse.Text = "迷你窗口(&ESC)"
         '
         'cmdSearch
@@ -196,6 +189,5 @@ Partial Class frmMain
     Friend WithEvents lblCollapse As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents cmOp As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents mnuCopy As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents lblEgg As System.Windows.Forms.ToolStripStatusLabel
 
 End Class

@@ -280,10 +280,4 @@ ByVal lParam As IntPtr) As IntPtr
         End If
     End Sub
 
-    Private Sub lblEgg_Click(sender As Object, e As EventArgs) Handles lblEgg.Click
-        If My.Computer.Keyboard.AltKeyDown And My.Computer.Keyboard.CtrlKeyDown Then
-            MessageBox.Show("恭喜您挖到彩蛋！" & vbCrLf & "软件编程：倪万茂 2013@流式中文网 www.flowcyto.cn", String.Format("丁香词典 V{0}.{1}", My.Application.Info.Version.Major, My.Application.Info.Version.Minor), _
-                            MessageBoxButtons.OK, MessageBoxIcon.Information)
-        End If
-    End Sub
 End Class
