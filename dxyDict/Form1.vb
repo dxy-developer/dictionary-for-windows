@@ -262,10 +262,21 @@ ByVal lParam As IntPtr) As IntPtr
             Me.Left = My.Computer.Screen.Bounds.Width - 370
         End If
     End Sub
+    Private Sub HTMLDoubleClick(sender As Object, e As HtmlElementEventArgs)
+
+        If Me.Height = 85 Then Exit Sub
+        lblLink.Visible = False
+        lblCollapse.Visible = False
+        Me.Height = 85
+        Me.Width = 360
+        Me.Left = My.Computer.Screen.Bounds.Width - 370
+
+    End Sub
     Private Sub wbMain_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles wbMain.DocumentCompleted
         If wbMain.Url.ToString = "about:blank" Then
             wbMain.Document.Write(sResult)
-            AddHandler wbMain.Document.Body.KeyDown, AddressOf HTMLBodyDown
+            AddHandler wbMain.Document.Body.KeyDown, AddressOf HTMLBodyDown '在显示释义的webbrowser上按Escape键，缩小窗口
+            AddHandler wbMain.Document.Body.DoubleClick, AddressOf HTMLDoubleClick '在显示释义的webbrowser上双击，缩小窗口
             txtInput.Focus()
         End If
     End Sub
